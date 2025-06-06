@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { GlobalStyles } from './styles/GlobalStyles';
-import socket from './config/socket-controller';
+import socket from './lib/config/socket-controller';
 
 const App = () => {
 	const [nombre, setNombre] = useState('');
